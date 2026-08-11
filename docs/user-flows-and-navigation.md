@@ -1,70 +1,81 @@
-# User flows and navigation hierarchy
-
+# User Flows and Navigation Hierarchy
+ 
 **Prepared by:** Member 4 (Information Architect)
-**Purpose:** Maps out how users move through the app for each of the three core scenarios, and how all screens fit together in one navigation structure. This is the blueprint the Week 2 design teams (Scenario A, B, C) build their Balsamiq screens from.
 
+**Based on:** the Balsamiq screens already built by the Scenario A, B, and C design teams.
+
+**Purpose:** documents how the app's screens connect, so the structure is traceable before usability testing.
+ 
 ---
-
-## 1. User flows
-
-Each flow below matches the screens already assigned to the design teams in the task allocation.
-
-### Scenario A — Report a lost item
-**Team:** Member 1 & Member 5
-
-Home → Report lost item form → Category/photo upload → Confirmation
-
-A student opens the app from the home screen, fills in a form describing the item they lost, adds a category and photo, and receives a confirmation that their report was submitted.
-
-### Scenario B — Search and filter found items
-**Team:** Member 6 & Member 7
-
-Found feed → Search & filter modal → Item details → Drop-off location map
-
-A student browses the feed of found items, narrows results using search and filters, opens an item's details, and views where it can be picked up.
-
-### Scenario C — Submit and track a claim
-**Team:** Member 8 & Member 2
-
-Claim request form → Verification step → Claim status tracker → User profile/history
-
-After finding a matching item, a student submits a claim, verifies ownership, and tracks the claim status until it's resolved. Past claims and reports appear in their profile.
-
+ 
+## 1. Screen inventory
+ 
+The prototype currently has screens across login, reporting, browsing/claiming, and profile.
+ 
+| # | Screen | What it does |
+|---|--------|---------------|
+| 1 | Login | Student signs in with email/password or Google |
+| 2 | Home / Dashboard | Entry hub — search bar, Report Lost, Report Found, Browse Items, My Reports |
+| 3 | Report Lost Item | Item name, description, location lost, date, category |
+| 4 | Report Found Item | Photo upload, identifier tags (colour, brand), contact preference |
+| 5 | Confirmation | Shows report ID and submission date; links to My Reports or Home |
+| 6 | Found Items feed | Grid of found items with photo, name, date, location |
+| 7 | Search & Filter | Search bar plus category/location filters, results list |
+| 8 | Item Details | Full item info with a Claim Item button |
+| 9 | Claim This Item | Claim form — reason, location lost, name, contact |
+| 10 | Verifying Your Claim | Compares finder's description to the claimant's, shows pickup point |
+| 11 | Claim Status Tracker | Step tracker: Submitted → Verification → Under Review → Decision |
+| 12 | Drop-off Location | Campus map, collection point, landmark, directions, contact |
+| 13 | Profile | Stats, claim history list, account settings, logout |
+ 
 ---
+ 
+## 2. User flows
+ 
+### Flow A — Report a lost item
+Login → Home → Report Lost Item → Confirmation → Return Home / View My Reports
+ 
+### Flow B — Report a found item
+Login → Home → Report Found Item → Confirmation → Return Home / View My Reports
+ 
+### Flow C — Browse and search found items
+Login → Home → Found Items feed **or** Search & Filter → Item Details
+ 
+### Flow D — Claim an item
+Item Details → Claim This Item → Verifying Your Claim → Claim Status Tracker → Drop-off Location
+ 
+### Flow E — View profile
+Home (bottom nav) → Profile
 
-## 2. Navigation hierarchy
+<img width="406" height="308" alt="image" src="https://github.com/user-attachments/assets/d9a91e10-c1b8-4719-8f64-fed854991f8e" />
 
-This shows how the ~12 screens sit together as one app — not just the linear paths above, but what's a home-level screen versus what's nested inside another flow.
-
+ 
+---
+ 
+## 3. Navigation hierarchy
+ 
 ```
-Home
-├── Report section
-│   ├── Report lost item form
-│   │   └── Category/photo upload
-│   │       └── Confirmation
-├── Found section
-│   ├── Found feed
-│   │   └── Search & filter modal
-│   │       └── Item details
-│   │           ├── Drop-off location map
-│   │           └── Claim request form (enters claim flow)
-├── Claim section
-│   ├── Verification step
-│   │   └── Claim status tracker
-│   │       └── User profile/history
+Login
+└── Home / Dashboard
+    ├── Report Lost Item
+    │   └── Confirmation
+    ├── Report Found Item
+    │   └── Confirmation
+    ├── Found Items feed
+    │   └── Item Details
+    │       ├── Claim This Item
+    │       │   └── Verifying Your Claim
+    │       │       └── Claim Status Tracker
+    │       │           └── Drop-off Location
+    ├── Search & Filter
+    │   └── Item Details (same as above)
+    └── Profile (bottom nav tab)
 ```
-
-**Notes for the design teams:**
-- Home is the single entry point; Report and Found are the two main paths a user chooses between.
-- The claim flow is reached *from* item details (Found section), not from Home directly — it's the natural next step after finding a match.
-- Confirmation, claim status, and profile screens are end-states or persistent references, not dead ends — they should always offer a way back to Home.
-
+ 
+Bottom navigation is consistent across the core screens (Home, Search, Claims, Profile), which is good for orientation — a user should always have a way back to Home.
+ 
 ---
-
-## 3. Diagrams
-
-See the attached flow diagram and navigation hierarchy diagram (screenshots) in this folder for the visual versions of the above.
-
-## 4. Paper sketches
-
-Low-fidelity paper sketches of each of the 12+ screens are stored separately in `wireframes/sketches/`.
+ 
+## 5. Paper sketches
+ 
+Low-fidelity paper sketches for each screen are stored separately in `wireframes/sketches/`.
