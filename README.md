@@ -69,9 +69,9 @@ Key Application Features & User Scenarios
  Design Guidelines & Conventions
 
 - Color Palette (Wireframe Accents):
-  - Primary Action / Active State: #007BFF (Blue)
-  - Background / Fill Accents: #CCE5FF (Light Blue)
-  - Secondary Text / Placeholders: #6C757D (Gray)
+  - Primary Action / Active State: #007BFF (green)
+  - Background / Fill Accents: #CCE5FF (white/green)
+  - Secondary Text / Placeholders:  (black)
 - Interactive Linking: Navigation links (Submit Listing → Confirmation, Return to Home → Dashboard) are mapped directly within the Balsamiq project canvas.
 
 
