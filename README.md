@@ -53,9 +53,9 @@ Navigating lost belongings on campus is often fragmented and slow, relying on ph
 |  c025-01-0609/2023 | Iteration & Deck Lead | Wireframe revisions based on test data, slides, and Supplemental UI (Screen 12: Profile & Settings). |
 |  c025-01-0665/2023 | Interactive Prototyping Lead | Configured clickthrough links, screen transitions, and interactive flows across all 12 screens in Balsamiq. |
 
----
 
-Key Application Features & User Scenarios
+**
+Key Application Features & User Scenarios**
 
 1. Scenario A: Report a Lost Item
    - Fast form submission with automated item categorization, loss location tagging, visual tags (Colour & Brand), and image uploads.
@@ -65,31 +65,23 @@ Key Application Features & User Scenarios
    - Ownership verification process and real-time status updates on claim requests.
 
 
-Design Guidelines & Conventions
-Color Palette & Visual Theme
-
+**Design Guidelines & Conventions**
+**Color Palette & Visual Theme**
 Header Banners & Main Call-to-Action Buttons: Solid Green (#00A82D) for main top navigation bars, primary submit triggers, and key action buttons
-
 Tag Selectors & Badges: Standard high-contrast accent fills (Black, Blue, Red, White, Gray) for visual category chips and status indicators
-
 Active Selection States: Solid Green (#00A82D) indicators for selected radio buttons, active tab states, and step-tracker steps
 
-Component & Layout Standards
-
+**Component & Layout Standards**
 Header Navigation: Full-width top banner featuring screen titles, back arrow navigation, and subtitle breadcrumbs
-
 Multi-Step Form Chunking: Clean, single-column vertical card layouts dividing complex forms into manageable 2-step workflows
-
 Interactive Form Inputs: Dashed upload drop zones for media attachments, rounded text input fields, and pill-style tag selectors
-
 Selection Controls: Radio button groups for single-choice preferences (Contact Methods, Claim Types) and chip buttons for multi-attribute filtering
-
 Mobile Touch Targets: Full-width primary action buttons placed at the bottom of forms for comfortable thumb-zone access
 
 
 
 
- Repository Structure
+ **Repository Structure**
 
 ├── docs/                 # Problem statement, personas, requirements, and task flows
 ├── research/             # User research tools, interview scripts, and summaries
