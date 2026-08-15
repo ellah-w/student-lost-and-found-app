@@ -1,6 +1,6 @@
 # student-lost-and-found-app
 HCI Group Project: Student Lost-and-Found Mobile Application prototype designed using Balsamiq and managed with GitHub.
-# 📱 Campus Student Lost-and-Found Mobile App
+#  Campus Student Lost-and-Found Mobile App
 
 An interactive mobile application prototype designed to streamline reporting, searching, and claiming lost items within the university campus. Built as part of the Human–Computer Interaction (HCI) module.
 
@@ -43,15 +43,15 @@ Navigating lost belongings on campus is often fragmented and slow, relying on ph
 
 | Name | Role | Primary Responsibilities |
 | :--- | :--- | :--- |
-| Member 1 (Lead) | Project Lead & Co-Designer | Repo administration, README management, and Scenario A Balsamiq wireframes (Screen 3: Media Upload, Screen 4: Confirmation). |
-| Member 2 | User Researcher | Field research with 5 campus users, survey design, and Scenario B wireframes (Screen 5: Search Feed, Screen 6: Item View). |
-| Member 3 | UX Analyst | Development of Personas, Usability Requirements, and Scenario B wireframes (Screen 7: Search Results & Empty States). |
-| Member 4 | Information Architect | User journeys, task flows, low-fi sketches, and Scenario C wireframes (Screen 8: Claim Form, Screen 9: Claim Upload). |
-| Member 5 | Lead Balsamiq Designer | Scenario A wireframing (Screen 1: Home Dashboard, Screen 2: Basic Info Form) and global mobile UI layout standards. |
-| Member 6 | Assistant Balsamiq Designer | Scenario C wireframing (Screen 10: Claim Status Tracker Pipeline). |
-| Member 7 | Usability Testing Lead | Usability test execution with 5 participants, error logging, and Supplemental UI (Screen 11: My Claims Log). |
-| Member 8 | Iteration & Deck Lead | Wireframe revisions based on test data, slides, and Supplemental UI (Screen 12: Profile & Settings). |
-| Member 9 | Interactive Prototyping Lead | Configured clickthrough links, screen transitions, and interactive flows across all 12 screens in Balsamiq. |
+| c025-01-0613/2023 | Project Lead & Co-Designer | Repo administration, README management, and Scenario A Balsamiq wireframes (Screen 3: Media Upload, Screen 4: Confirmation). |
+| c025-01-0661/2023 | User Researcher | Field research with 5 campus users, survey design, and Scenario B wireframes (Screen 5: Search Feed, Screen 6: Item View). |
+|  c025-01-0631/2023 | UX Analyst | Development of Personas, Usability Requirements, and Scenario B wireframes (Screen 7: Search Results & Empty States). |
+|  c025-01-1941/2023 | Information Architect | User journeys, task flows, low-fi sketches, and Scenario C wireframes (Screen 8: Claim Form, Screen 9: Claim Upload). |
+|  c025-01-0612/2023 | Lead Balsamiq Designer | Scenario A wireframing (Screen 1: Home Dashboard, Screen 2: Basic Info Form) and global mobile UI layout standards. |
+|  c025-01-0635/2023 | Assistant Balsamiq Designer | Scenario C wireframing (Screen 10: Claim Status Tracker Pipeline). |
+|  c025-01-0666/2023 | Usability Testing Lead | Usability test execution with 5 participants, error logging, and Supplemental UI (Screen 11: My Claims Log). |
+|  c025-01-0609/2023 | Iteration & Deck Lead | Wireframe revisions based on test data, slides, and Supplemental UI (Screen 12: Profile & Settings). |
+|  c025-01-0665/2023 | Interactive Prototyping Lead | Configured clickthrough links, screen transitions, and interactive flows across all 12 screens in Balsamiq. |
 
 ---
 
