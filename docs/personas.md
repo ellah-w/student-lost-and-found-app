@@ -28,7 +28,7 @@ Amina realizes she's lost something shortly after leaving a location and immedia
 - Doesn't want to fill out a long form while stressed and in a hurry between classes
 
 **Quote** *(placeholder — replace with a real participant quote once research is conducted)*
-> "[Replace with a real quote once collected]"
+> "[Replace with a real quote once collected]
 
 **How this app helps her**
 - Report Lost Item (Screen 3) is a short, focused form — name, description, location, date, category — not an exhaustive intake form
