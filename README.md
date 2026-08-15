@@ -64,15 +64,28 @@ Key Application Features & User Scenarios
 3. Scenario C: Submit & Track a Claim
    - Ownership verification process and real-time status updates on claim requests.
 
----
 
- Design Guidelines & Conventions
+Design Guidelines & Conventions
+Color Palette & Visual Theme
 
-- Color Palette (Wireframe Accents):
-  - Primary Action / Active State: #007BFF (green)
-  - Background / Fill Accents: #CCE5FF (white/green)
-  - Secondary Text / Placeholders:  (black)
-- Interactive Linking: Navigation links (Submit Listing → Confirmation, Return to Home → Dashboard) are mapped directly within the Balsamiq project canvas.
+Header Banners & Main Call-to-Action Buttons: Solid Green (#00A82D) for main top navigation bars, primary submit triggers, and key action buttons
+
+Tag Selectors & Badges: Standard high-contrast accent fills (Black, Blue, Red, White, Gray) for visual category chips and status indicators
+
+Active Selection States: Solid Green (#00A82D) indicators for selected radio buttons, active tab states, and step-tracker steps
+
+Component & Layout Standards
+
+Header Navigation: Full-width top banner featuring screen titles, back arrow navigation, and subtitle breadcrumbs
+
+Multi-Step Form Chunking: Clean, single-column vertical card layouts dividing complex forms into manageable 2-step workflows
+
+Interactive Form Inputs: Dashed upload drop zones for media attachments, rounded text input fields, and pill-style tag selectors
+
+Selection Controls: Radio button groups for single-choice preferences (Contact Methods, Claim Types) and chip buttons for multi-attribute filtering
+
+Mobile Touch Targets: Full-width primary action buttons placed at the bottom of forms for comfortable thumb-zone access
+
 
 
 
